@@ -1,0 +1,5 @@
+等待地址ip lldb接入
+debugserver -x backboard IP:port /path/to/executable
+debugserver -x backboard *:1234 /private/var/containers/Bundle/Application/709D45EE-9E1E-45F7-BA48-05A94C3A0229/yidian.app/yidian
+附加processName
+debugserver IP:port "ProcessName"
